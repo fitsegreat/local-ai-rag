@@ -8,7 +8,7 @@ from qdrant_client.models import VectorParams, Distance
 COLLECTION_NAME = "blog_posts"
 
 # Connect to Ollama API
-ollama_client = ollama.Client(host="172.18.224.1")
+ollama_client = ollama.Client(host="localhost")
 # Get the vector embedding with nomic-embed-text
 def get_vector_embedding(text):
     response = ollama_client.embeddings(
