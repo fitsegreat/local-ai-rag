@@ -1,4 +1,4 @@
-# What is Local Retrieval-Augmented Generation (RAG)?
+# What is Retrieval-Augmented Generation (RAG)?
 
 
 **Retrieval-Augmented Generation (RAG)** is a technique in **Natural Language Processing (NLP)** that enhances the performance of language models by integrating **external knowledge**
