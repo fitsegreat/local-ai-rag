@@ -1,8 +1,5 @@
-import os
 import ollama
-from uuid import uuid4
 from qdrant_client import QdrantClient
-from qdrant_client.models import VectorParams, Distance
 
 # Constants
 COLLECTION_NAME = "blog_posts"
